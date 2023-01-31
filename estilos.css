@@ -7,49 +7,8 @@
     box-sizing: border-box;
 }
 
-html{
-    scroll-behavior: smooth;
-}
-
-header{
-    height: 100px;
-    width: 100%;
-    background-color: red;
-    font-family: 'Oswald', sans-serif;
-    text-transform: capitalize;
-    padding: 30px;
-    
-}
-
-.logo{
-    float:inline-start;
-    font-size: 25px;
-    font-weight: bold;
-    color: aliceblue;
-}
-
-.logo span{
-    color: aquamarine;
-}
-
-.barra{
-    float:right;
-    padding: 5px   
-}
-
-.barra ul li{
-    list-style: none;
-    display: inline-block;
-}
-
-.barra a{
-    text-decoration: none;
-    color: aliceblue;
-}
-
-.barra a:hover{
-    color: black;
-    text-decoration: underline;
+.navbar{
+    background-color: rgb(212, 53, 53);
 }
 
 main{
