@@ -18,6 +18,7 @@
 
 .navbar-brand{
     font-weight: bold;
+    font-size: x-large
 }
 .navbar-brand span {
     color: aqua !important;
@@ -84,26 +85,44 @@ h2 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     padding: 20px;
-
+    margin-bottom: 0;
 }
 
-.sec {
-    background-color: antiquewhite;
-    height: calc(100vh - 200px);
-    width: 100%;
+.carousel-item {
+    height: 400px;
+    background-size: cover !important;
+    background-position: center !important;
+}
+.carousel-caption{
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+.carousel-caption h3{
+    text-transform: capitalize;
 }
 
-.sec1 p {
-    font-size: x-large;
+.img-juego{
+    background-color: rgb(212, 53, 53);
+    background-image: url(img/toymanonene.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.titulo-juego{
+    background-color: rgb(212, 53, 53);
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.titulo-juego h3{
     text-align: center;
-    padding: 40px;
-
 }
-
-.sec2 p {
-    font-size: x-large;
-    display: inline-block;
-
+.titulo-juego a{
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
 }
 
 footer {
