@@ -16,13 +16,15 @@
 
 <body>
     <!-- navbar inicio -->
-    <nav class="navbar navbar-expand-md navbar-dark">
+    <nav class="navbar navbar-expand-md">
         <!-- Brand -->
         <a class="navbar-brand" href="#">Jugueteria <span>Gurilandia</span></a>
 
         <!-- Toggler/collapsibe Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon">
+                <i class="fa-solid fa-bars"></i>
+            </span>
         </button>
 
         <!-- Navbar links -->
@@ -35,28 +37,62 @@
                     <a class="nav-link" href="#">jueguetes</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">bebe</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="#">aire libre</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">edad</a>
+                    <a class="nav-link" href="#">bebes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">contacto</a>
                 </li>
             </ul>
         </div>
     </nav>
     <!-- navbar fin -->
-    <main>
-        <div class="call">
+
+    <!-- jumbotron inicio -->
+    <div class="jumbotron">
+        <div class="intron">
             <h1>Nuestra Jugueteria</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, neque ipsum. Sunt veniam harum
-                alias totam quas quibusdam quis qui quidem ut quae impedit perferendis libero odio, laboriosam officiis
-                dolorem!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, neque ipsum. Sunt veniam harum</p>
             <a href="">Ver mas</a>
         </div>
-    </main>
+    </div>
+    <!-- jumbotron fin -->
     <h2 id="sec1">Destacados</h2>
+    <!-- carousel inicio -->
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="la.jpg" alt="Los Angeles">
+            </div>
+            <div class="carousel-item">
+                <img src="chicago.jpg" alt="Chicago">
+            </div>
+            <div class="carousel-item">
+                <img src="ny.jpg" alt="New York">
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+    </div>
+    <!-- carousel fin -->
     <section class="sec sec1">
         <p>En esta seccion tiene que haber un carrucel</p>
     </section>

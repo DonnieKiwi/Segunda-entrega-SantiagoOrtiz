@@ -1,67 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
-
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-.navbar{
+.navbar {
     background-color: rgb(212, 53, 53);
+    text-transform: capitalize;
 }
 
-main{
-    height: calc(100vh - 100px);
-    width: 100%;
-    background-color: bisque;
+.navbar a {
+    color: whitesmoke;
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+.navbar-brand span {
+    color: aqua !important;
+}
+
+.navbar-toggler i {
+    color: whitesmoke;
+    font-size: 25px;
+    padding-top: 2px;
+}
+.nav-item{
+    text-align: center;
+    
+}
+.nav-item:hover{
+    background-color:rgb(35, 31, 31);
+    
+}
+
+.jumbotron{
+    height: 350px;
+    background-color: rgb(212, 53, 53);
     background-image: url(img/legofondo.jpeg);
     background-size: cover;
-    background-position: center
-    
-
+    background-position: center;
+    color: azure;
+    text-align: end;
+    border-radius: 0% ;
+    margin-bottom: 0%;
 }
 
-.call{
+.intron{
     color: white;
-    width: 50%;
+    width: auto;
     float: right;
     background-color: rgba(0, 0, 0, 0.575);
     border: 3px solid red;
     padding: 35px;
     font-family: 'Oswald', sans-serif;
-    margin: 50px;
-
+    
 }
 
-.call a{
+.intron a{
     text-decoration: none;
     color: white;
-    background-color: rgb(69, 122, 213);
+    background-color: rgb(212, 53, 53);
     padding: 7px;
     border-radius: 5px;
+    text-transform: capitalize;
 }
 
-.call a:hover{
+.intron a:hover {
     color: black;
-    text-decoration: underline;
+    text-decoration: none;
     border: 2px solid red;
-
 }
 
-h1{
-    color: whitesmoke;
-    margin-bottom: 20px;
-}
-
-.call p{
-    margin-bottom: 30px;
-    font-size:larger;
-}
-
-h2{
+h2 {
     text-align: center;
-    background-color: red;
+    background-color: rgb(212, 53, 53);
     color: aliceblue;
     font-size: 25px;
     font-weight: bolder;
@@ -71,26 +87,26 @@ h2{
 
 }
 
-.sec{
-   background-color: antiquewhite;
-   height: calc(100vh - 200px);
-   width: 100%; 
+.sec {
+    background-color: antiquewhite;
+    height: calc(100vh - 200px);
+    width: 100%;
 }
 
-.sec1 p{
+.sec1 p {
     font-size: x-large;
     text-align: center;
     padding: 40px;
-    
+
 }
 
-.sec2 p{
+.sec2 p {
     font-size: x-large;
     display: inline-block;
-    
+
 }
 
-footer{
+footer {
     text-align: center;
     font-size: 30px;
     background-color: rgb(43, 43, 191);
@@ -98,17 +114,18 @@ footer{
     font-family: 'Oswald', sans-serif;
 
 }
-footer p{
+
+footer p {
     margin-bottom: 15px;
 }
 
-footer i{
+footer i {
     font-size: 50px;
     letter-spacing: 20px;
     color: orange;
 }
 
-.subir{
+.subir {
     height: 40px;
     width: 40px;
     background-color: red;
@@ -122,7 +139,7 @@ footer i{
     box-shadow: 0 0 5px coral;
 }
 
-#juguetes{
+#juguetes {
     height: calc(100vh - 100px);
     width: 100%;
     background-color: bisque;
@@ -130,7 +147,8 @@ footer i{
     background-size: cover;
     background-position: center
 }
-#juegos{
+
+#juegos {
     height: calc(100vh - 100px);
     width: 100%;
     background-color: bisque;
@@ -138,7 +156,8 @@ footer i{
     background-size: cover;
     background-position: center
 }
-#edad{
+
+#edad {
     height: calc(100vh - 100px);
     width: 100%;
     background-color: bisque;
@@ -146,7 +165,8 @@ footer i{
     background-size: cover;
     background-position: center
 }
-#airelibre{
+
+#airelibre {
     height: calc(100vh - 100px);
     width: 100%;
     background-color: bisque;
@@ -154,7 +174,8 @@ footer i{
     background-size: cover;
     background-position: center
 }
-#bebe{
+
+#bebe {
     height: calc(100vh - 100px);
     width: 100%;
     background-color: bisque;
