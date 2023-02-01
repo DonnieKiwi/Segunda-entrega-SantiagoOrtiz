@@ -4,31 +4,208 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="estilos.css">
     <title>airelibre</title>
 </head>
 <body>
-    <header>
-        <div class="logo">Jugueteria <span>Gurilandia</span></div>
-        <nav class="barra">
-            <ul>
-                <li><a href="index.html">home</a></li>
-                <li><a href="juguetes.html">juguetes</a></li>
-                <li><a href="juegos.html">juegos</a></li>
-                <li><a href="edad.html">edad</a></li>
-                <li><a href="airelibre.html">aire libre</a></li>
-                <li><a href="bebe.html">bebe</a></li>
+    <!-- navbar inicio -->
+    <nav class="navbar navbar-expand-md">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">Jugueteria <span>Gurilandia</span></a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon">
+                <i class="fa-solid fa-bars"></i>
+            </span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/juegos.html">juegos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/juguetes.html">jueguetes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/airelibre.html">aire libre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/bebe.html">bebes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/contacto.html">contacto</a>
+                </li>
             </ul>
-        </nav>
-     </header>
-     <main id="airelibre">
-        <div class="call">
-            <h1>Para parque y pileta tambien hay</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, neque ipsum. Sunt veniam harum alias totam quas quibusdam quis qui quidem ut quae impedit perferendis libero odio, laboriosam officiis dolorem!</p>
+        </div>
+    </nav>
+    <!-- navbar fin -->
+
+    <!-- jumbotron inicio -->
+    <div class="jumbotron">
+        <div class="intron">
+            <h1>Nuestra Jugueteria</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, neque ipsum. Sunt veniam harum</p>
             <a href="">Ver mas</a>
         </div>
-     </main>
+    </div>
+    <!-- jumbotron fin -->
+
+    <h2 id="sec1">Destacados</h2>
+
+    <!-- carousel inicio -->
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/chess.jpeg" alt="juegos">
+                <div class="carousel-caption">
+                    <h3>juegos eternos</h3>
+                    <p>Para todas las edades!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/ironman.jpeg" alt="juguetes">
+                <div class="carousel-caption">
+                    <h3>clasicos modernos</h3>
+                    <p>Jugar hasta coleccionarlos!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/playa.jpeg" alt="airelibre">
+                <div class="carousel-caption">
+                    <h3>afuera siempre</h3>
+                    <p>Divertite mas que nunca al aire libre!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+    </div>
+    <!-- carousel fin -->
+
+    <!-- inicia mi seccion 1 -->
+
+    <h2>promociones y novedades</h2>
+    <section class="container-fluid">
+        <div class="row">
+            <aside class="img-juego img1 col-sm-8"></aside>
+            <aside class="titulo-juego col-sm-4">
+                <h3>queda verano</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex ullam cum aut quidem officiis debitis
+                    earum facilis. Iste blanditiis, optio tempora quas praesentium, molestiae, deleniti architecto
+                    veniam esse deserunt perferendis.</p>
+                <a href="#">busca el tuyo</a>
+            </aside>
+        </div>
+    </section>
+    <!-- finaliza mi seccion 1 -->
+
+    <!-- inicia mi seccion 2 -->
+
+    <section class="container-fluid">
+        <div class="row">
+            <aside class="titulo-juego col-sm-4">
+                <h3>queda verano</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex ullam cum aut quidem officiis debitis
+                    earum facilis. Iste blanditiis, optio tempora quas praesentium, molestiae, deleniti architecto
+                    veniam esse deserunt perferendis.</p>
+                    <a href="#">busca el tuyo</a>
+                </aside>
+                <aside class="img-juego img2 col-sm-8"></aside>
+        </div>
+    </section>
+    <!-- finaliza mi seccion 2 -->
+
+    <!-- inicia mi seccion 3 -->
+
+    <section class="container-fluid">
+        <div class="row">
+            <aside class="img-juego img3 col-sm-8"></aside>
+            <aside class="titulo-juego col-sm-4">
+                <h3>queda verano</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex ullam cum aut quidem officiis debitis
+                    earum facilis. Iste blanditiis, optio tempora quas praesentium, molestiae, deleniti architecto
+                    veniam esse deserunt perferendis.</p>
+                <a href="#">busca el tuyo</a>
+            </aside>
+        </div>
+    </section>
+    <!-- finaliza mi seccion 3 -->
+
     
+
+    <!-- footer inicia -->
+    <footer class="container-fliud">
+        
+        <h2 id="sec3">Informacion</h2>
+
+        <div class="datos row">
+            <div class="f-enlace col-sm-4">
+                <h4>Enlaces</h4>
+                <ul>
+                    <li><a href="#"> Nosotros</a></li>
+                    <li><a href="#"> Servicios</a></li>
+                    <li><a href="#"> Productos</a></li>
+                    <li><a href="#"> Contactos</a></li>
+                </ul>
+            </div>
+            <div class="f-dire col-sm-4">
+                <h4>Ubicacion</h4>
+                <p>Direccion</p>
+                <p>Localidad</p>
+                <p>Pais</p>
+            </div>
+            <div class="f-mapa col-sm-4">
+                <h4>Donde?</h4>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50801.54907429106!2d-57.01894530921356!3d-37.26913119642189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959b6099701f5169%3A0x3ff123eb47c01791!2sJuguelandia!5e0!3m2!1ses-419!2sar!4v1675215960661!5m2!1ses-419!2sar" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <p>Todos los derechos son reservados por copyright</p>
+        <div class="redes">
+            <a href="https://es-la.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </footer>
+    <a href="#" class="subir">
+        <i class="fa-regular fa-chevron-up"></i>
+    </a>
+
+    <!-- footer finaliza -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous">
+    </script>
 </body>
 </html>

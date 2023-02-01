@@ -16,9 +16,13 @@
     font-family: 'Oswald', sans-serif;
 }
 
+.collapse{
+    transform: translate(100px, 10px);
+}
+
 .navbar-brand{
     font-weight: bold;
-    font-size: x-large
+    font-size: x-large;
 }
 .navbar-brand span {
     color: aqua !important;
@@ -179,6 +183,11 @@ footer i {
     line-height: 40px;
 }
 
+
+#airelibre {
+
+}
+
 #juguetes {
     height: calc(100vh - 100px);
     width: 100%;
@@ -206,14 +215,6 @@ footer i {
     background-position: center
 }
 
-#airelibre {
-    height: calc(100vh - 100px);
-    width: 100%;
-    background-color: bisque;
-    background-image: url(img/playa.jpeg);
-    background-size: cover;
-    background-position: center
-}
 
 #bebe {
     height: calc(100vh - 100px);
