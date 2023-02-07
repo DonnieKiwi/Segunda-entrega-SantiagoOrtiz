@@ -15,7 +15,6 @@
     color: whitesmoke;
     font-family: 'Oswald', sans-serif;
 }
-
 .collapse{
     transform: translate(100px, 10px);
 }
@@ -181,41 +180,4 @@ footer i {
     font-size: 30px;
     text-align: center;
     line-height: 40px;
-}
-
-#juguetes {
-    height: calc(100vh - 100px);
-    width: 100%;
-    background-color: bisque;
-    background-image: url(img/ironman.jpeg);
-    background-size: cover;
-    background-position: center
-}
-
-#juegos {
-    height: calc(100vh - 100px);
-    width: 100%;
-    background-color: bisque;
-    background-image: url(img/chess.jpeg);
-    background-size: cover;
-    background-position: center
-}
-
-#edad {
-    height: calc(100vh - 100px);
-    width: 100%;
-    background-color: bisque;
-    background-image: url(img/toymanonene.jpeg);
-    background-size: cover;
-    background-position: center
-}
-
-
-#bebe {
-    height: calc(100vh - 100px);
-    width: 100%;
-    background-color: bisque;
-    background-image: url(img/bebe.jpeg);
-    background-size: cover;
-    background-position: center
 }
